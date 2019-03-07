@@ -2,7 +2,7 @@
 	
 	:: Navigate to the directory you wish to push to GitHub
 	::Change <path> as needed. Eg. C:\Users\pookie\Desktop\Writings
-	
+	cd D:\Documents\github
 	
 	::Initialize GitHub
 	git init
