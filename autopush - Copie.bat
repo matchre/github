@@ -9,7 +9,7 @@
 	
 	::Pull any external changes (maybe you deleted a file from your repo?)
 	git clean -f -d
-	git pull
+	::git pull
 	
 	::Add all files in the directory
 	git add --all
