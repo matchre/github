@@ -5,14 +5,15 @@
 	cd D:\Documents\github
 	
 	::Initialize GitHub
-	::git init
+	git init
 	
 	::Pull any external changes (maybe you deleted a file from your repo?)
-	git clean -f -d
+	
 	::git pull
 	
 	::Add all files in the directory
-	git add --all
+	git add -A
+	::git add EnsScienc/
 	
 	::Commit all changes with the message "auto push". 
 	::Change as needed.
