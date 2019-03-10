@@ -3,6 +3,7 @@
 	::cd D:\Documents\github
 	TIMEOUT 1
 	::Initialize GitHub
+	rm -rf .git/
 	git init
 	git reset
 	TIMEOUT 1
