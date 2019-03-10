@@ -3,14 +3,15 @@
 	::cd D:\Documents\github
 	TIMEOUT 1
 	::Initialize GitHub
-	::git init
+	git init
 	TIMEOUT 1
 	::Pull any external changes (maybe you deleted a file from your repo?)
-	::git clean -f -d
+	git clean -f -d
 	::git pull
 	TIMEOUT 1
 	::Add all files in the directory
-	git add --all
+	git add . -f 
+	git add *.ipynb
 	TIMEOUT 1
 	::Commit all changes with the message "auto push". 
 	::Change as needed.
