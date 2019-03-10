@@ -14,7 +14,7 @@
 	::Add all files in the directory
 	::git add . -f 
 	git add *.ipynb
-	git add -A
+	git add --all
 	git add -u
 	git add $(git ls-files -o --exclude-standard)
 
