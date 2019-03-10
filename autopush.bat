@@ -3,7 +3,6 @@
 	::cd D:\Documents\github
 	TIMEOUT 1
 	::Initialize GitHub
-	rm -rf .git/
 	git init
 	git reset
 	TIMEOUT 1
@@ -16,6 +15,8 @@
 	git add *.ipynb
 	git add -A
 	git add -u
+	git add $(git ls-files -o --exclude-standard)
+
 	TIMEOUT 1
 	::Commit all changes with the message "auto push". 
 	::Change as needed.
