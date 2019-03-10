@@ -2,6 +2,7 @@
 	::Change <path> as needed. Eg. C:\Users\pookie\Desktop\Writings
 	::cd D:\Documents\github
 	TIMEOUT 1
+	git status
 	::Initialize GitHub
 	git init
 	git reset
